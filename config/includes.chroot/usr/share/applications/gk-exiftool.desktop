@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=ExifTool Metadata Analyzer
+Exec=xfce4-terminal -T "ExifTool Metadata Analyzer" -e "bash -c 'exiftool -ver && echo 'Usage: exiftool <file>'; exec bash'"
+Icon=utilities-terminal
+Terminal=false
+Categories=X-GK-Forensics;X-GhostKit-Security;

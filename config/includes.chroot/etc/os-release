@@ -1,0 +1,6 @@
+PRETTY_NAME="GhostKit OS 0827-22-00 (Debian Trixie)"
+NAME="GhostKit OS"
+VERSION="0827-22-00"
+VERSION_ID="0827-22-00"
+ID="ghostkit"
+ID_LIKE="debian"

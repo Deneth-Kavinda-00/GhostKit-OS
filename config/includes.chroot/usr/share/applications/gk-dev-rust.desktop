@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Rust & Cargo Environment
+Exec=xfce4-terminal -T "Rust & Cargo Environment" -e "bash -c 'rustc --version && cargo --version; exec bash'"
+Icon=utilities-terminal
+Terminal=false
+Categories=Development;

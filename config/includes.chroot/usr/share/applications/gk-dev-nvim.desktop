@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Neovim Editor
+Exec=xfce4-terminal -T "Neovim Editor" -e "bash -c 'nvim; exec bash'"
+Icon=utilities-terminal
+Terminal=false
+Categories=Development;

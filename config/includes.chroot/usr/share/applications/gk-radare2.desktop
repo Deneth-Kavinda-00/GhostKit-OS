@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Radare2 Disassembler
+Exec=xfce4-terminal -T "Radare2 Disassembler" -e "bash -c 'r2 -h; exec bash'"
+Icon=utilities-terminal
+Terminal=false
+Categories=X-GK-RevEng;X-GhostKit-Security;

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Stop Nginx
+Exec=/usr/local/bin/gk-svc-ctl nginx stop
+Icon=media-playback-stop
+Terminal=false
+Categories=X-GK-Svc-Nginx;

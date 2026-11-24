@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=MAT2 Metadata Anonymizer
+Exec=xfce4-terminal -T "MAT2 Metadata Anonymizer" -e "bash -c 'mat2 --help; exec bash'"
+Icon=security-high
+Terminal=false
+Categories=X-GK-Privacy;X-GhostKit-Security;

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Hashcat Password Cracker
+Exec=xfce4-terminal -T "Hashcat Password Cracker" -e "bash -c 'hashcat --help | head -n 35; exec bash'"
+Icon=dialog-password
+Terminal=false
+Categories=X-GK-Crypto;X-GhostKit-Security;

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Nginx Status
+Exec=/usr/local/bin/gk-svc-ctl nginx status
+Icon=utilities-terminal
+Terminal=false
+Categories=X-GK-Svc-Nginx;

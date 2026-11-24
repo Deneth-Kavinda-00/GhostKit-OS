@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=C/C++ & LaTeX Build Terminal
+Exec=xfce4-terminal -T "C/C++ & LaTeX Build Terminal" -e "bash -c 'gcc --version | head -n 1 && pdflatex --version | head -n 1; exec bash'"
+Icon=utilities-terminal
+Terminal=false
+Categories=Development;

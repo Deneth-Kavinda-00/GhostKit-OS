@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=GDB Debugger
+Exec=xfce4-terminal -T "GDB Debugger" -e "bash -c 'gdb --version; exec bash'"
+Icon=utilities-terminal
+Terminal=false
+Categories=X-GK-RevEng;X-GhostKit-Security;

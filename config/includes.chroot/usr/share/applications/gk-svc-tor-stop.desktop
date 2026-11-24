@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Stop Tor
+Exec=/usr/local/bin/gk-svc-ctl tor stop
+Icon=media-playback-stop
+Terminal=false
+Categories=X-GK-Svc-Tor;

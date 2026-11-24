@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=ProxyChains4 (Tor Routing)
+Exec=xfce4-terminal -T "ProxyChains4 (Tor Routing)" -e "bash -c 'echo 'Usage: proxychains4 <command>'; exec bash'"
+Icon=security-high
+Terminal=false
+Categories=X-GK-Privacy;X-GhostKit-Security;

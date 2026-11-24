@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Wireshark Packet Analyzer
+Exec=/usr/local/bin/gk-wireshark %f
+Icon=wireshark
+Terminal=false
+Categories=X-GK-Network;X-GhostKit-Security;

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Tor Status
+Exec=/usr/local/bin/gk-svc-ctl tor status
+Icon=utilities-terminal
+Terminal=false
+Categories=X-GK-Svc-Tor;

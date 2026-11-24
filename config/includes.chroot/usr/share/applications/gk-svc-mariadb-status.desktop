@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=MariaDB Status
+Exec=/usr/local/bin/gk-svc-ctl mariadb status
+Icon=utilities-terminal
+Terminal=false
+Categories=X-GK-Svc-MariaDB;

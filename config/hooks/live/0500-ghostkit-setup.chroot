@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+groupadd -f wireshark
+if ! id -u live >/dev/null 2>&1; then
+    useradd -m -s /bin/bash -G sudo,netdev,plugdev,audio,video,wireshark live
+else
+    usermod -aG sudo,netdev,plugdev,audio,video,wireshark live
+fi
+echo "live:ghost" | chpasswd
+echo "root:ghost" | chpasswd
+if [ -x /usr/bin/dumpcap ]; then
+    setcap cap_net_raw,cap_net_admin+eip /usr/bin/dumpcap 2>/dev/null || true
+fi
+update-desktop-database /usr/local/share/applications/ /usr/share/applications/ 2>/dev/null || true

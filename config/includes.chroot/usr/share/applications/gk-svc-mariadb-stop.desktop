@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Stop MariaDB
+Exec=/usr/local/bin/gk-svc-ctl mariadb stop
+Icon=media-playback-stop
+Terminal=false
+Categories=X-GK-Svc-MariaDB;

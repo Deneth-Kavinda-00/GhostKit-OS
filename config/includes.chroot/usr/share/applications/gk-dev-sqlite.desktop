@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=SQLite3 Database CLI
+Exec=xfce4-terminal -T "SQLite3 Database CLI" -e "bash -c 'sqlite3 --version && echo 'Usage: sqlite3 <database.db>'; exec bash'"
+Icon=utilities-terminal
+Terminal=false
+Categories=Development;

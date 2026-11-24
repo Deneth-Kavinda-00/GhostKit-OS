@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=TestDisk & PhotoRec
+Exec=xfce4-terminal -T "TestDisk & PhotoRec" -e "bash -c 'sudo testdisk; exec bash'"
+Icon=drive-harddisk
+Terminal=false
+Categories=X-GK-Forensics;X-GhostKit-Security;

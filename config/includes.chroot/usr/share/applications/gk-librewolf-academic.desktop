@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=LibreWolf (Academic)
+Comment=Isolated LibreWolf Profile - Academic
+Exec=/usr/local/bin/gk-browser academic
+Icon=librewolf
+Terminal=false
+Categories=Network;WebBrowser;

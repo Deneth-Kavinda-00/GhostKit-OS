@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Start PostgreSQL
+Exec=/usr/local/bin/gk-svc-ctl postgresql start
+Icon=media-playback-start
+Terminal=false
+Categories=X-GK-Svc-PostgreSQL;

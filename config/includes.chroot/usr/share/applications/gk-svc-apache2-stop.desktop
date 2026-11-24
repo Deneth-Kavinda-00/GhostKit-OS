@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Stop Apache2
+Exec=/usr/local/bin/gk-svc-ctl apache2 stop
+Icon=media-playback-stop
+Terminal=false
+Categories=X-GK-Svc-Apache;

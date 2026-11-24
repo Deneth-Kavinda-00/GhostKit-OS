@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=BleachBit System Cleaner
+Exec=bleachbit
+Icon=bleachbit
+Terminal=false
+Categories=X-GK-Privacy;X-GhostKit-Security;

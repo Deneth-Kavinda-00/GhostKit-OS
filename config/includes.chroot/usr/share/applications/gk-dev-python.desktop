@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Python 3 Interactive Shell
+Exec=xfce4-terminal -T "Python 3 Interactive Shell" -e "bash -c 'python3; exec bash'"
+Icon=python3
+Terminal=false
+Categories=Development;

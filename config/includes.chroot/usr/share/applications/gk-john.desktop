@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=John the Ripper
+Exec=xfce4-terminal -T "John the Ripper" -e "bash -c 'john; exec bash'"
+Icon=dialog-password
+Terminal=false
+Categories=X-GK-Crypto;X-GhostKit-Security;

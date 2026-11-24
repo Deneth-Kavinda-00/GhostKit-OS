@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Start Nginx
+Exec=/usr/local/bin/gk-svc-ctl nginx start
+Icon=media-playback-start
+Terminal=false
+Categories=X-GK-Svc-Nginx;

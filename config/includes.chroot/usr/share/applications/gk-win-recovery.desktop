@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Windows Password Recovery (chntpw)
+Comment=Offline Windows SAM password reset helper
+Exec=terminator -e /usr/local/bin/gk-win-pass
+Icon=system-software-install
+Terminal=false
+Categories=X-GK-Forensics;X-GhostKit-Security;

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Nmap Network Scanner
+Exec=xfce4-terminal -T "Nmap Network Scanner" -e "bash -c 'nmap --help; exec bash'"
+Icon=utilities-terminal
+Terminal=false
+Categories=X-GK-Network;X-GhostKit-Security;

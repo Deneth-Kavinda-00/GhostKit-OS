@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=LibreWolf (Security)
+Comment=Isolated LibreWolf Profile - Security
+Exec=/usr/local/bin/gk-browser security
+Icon=librewolf
+Terminal=false
+Categories=Network;WebBrowser;

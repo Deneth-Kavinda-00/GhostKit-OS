@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Aircrack-ng Suite
+Exec=xfce4-terminal -T "Aircrack-ng Suite" -e "bash -c 'aircrack-ng --help; exec bash'"
+Icon=network-wireless
+Terminal=false
+Categories=X-GK-Network;X-GhostKit-Security;

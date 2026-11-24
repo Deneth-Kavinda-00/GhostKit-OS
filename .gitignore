@@ -1,0 +1,21 @@
+# Live-build generated directories & large ISO images
+chroot/
+binary/
+cache/
+local/
+.build/
+*.iso
+*.img
+*.zsync
+*.tar*
+
+# Personal / session / secret artifacts
+.librewolf-profiles/
+TelegramDesktop/
+*.pem
+*.key
+*.id_rsa*
+.env
+__pycache__/
+*.pyc
+config/includes.chroot/opt/telegram/

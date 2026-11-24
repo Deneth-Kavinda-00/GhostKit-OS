@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=PostgreSQL Status
+Exec=/usr/local/bin/gk-svc-ctl postgresql status
+Icon=utilities-terminal
+Terminal=false
+Categories=X-GK-Svc-PostgreSQL;

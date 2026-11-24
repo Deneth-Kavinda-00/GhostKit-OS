@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Foremost File Carver
+Exec=xfce4-terminal -T "Foremost File Carver" -e "bash -c 'foremost -h; exec bash'"
+Icon=utilities-terminal
+Terminal=false
+Categories=X-GK-Forensics;X-GhostKit-Security;

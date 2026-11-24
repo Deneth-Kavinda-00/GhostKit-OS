@@ -1,0 +1,28 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+    <Name>Security</Name>
+    <DefaultAppDirs/>
+    <DefaultDirectoryDirs/>
+
+    <Menu>
+        <Name>01 - Wi-Fi, Bluetooth &amp; Network</Name>
+        <Include><Category>X-GK-Network</Category></Include>
+    </Menu>
+    <Menu>
+        <Name>02 - Digital Forensics</Name>
+        <Include><Category>X-GK-Forensics</Category></Include>
+    </Menu>
+    <Menu>
+        <Name>03 - Password &amp; Cryptography</Name>
+        <Include><Category>X-GK-Crypto</Category></Include>
+    </Menu>
+    <Menu>
+        <Name>04 - Reverse Engineering &amp; Exploit</Name>
+        <Include><Category>X-GK-RevEng</Category></Include>
+    </Menu>
+    <Menu>
+        <Name>05 - Privacy &amp; Anonymity</Name>
+        <Include><Category>X-GK-Privacy</Category></Include>
+    </Menu>
+</Menu>

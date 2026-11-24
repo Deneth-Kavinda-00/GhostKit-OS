@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=MAC Changer
+Exec=xfce4-terminal -T "MAC Changer" -e "bash -c 'macchanger --help; exec bash'"
+Icon=network-wired
+Terminal=false
+Categories=X-GK-Network;X-GhostKit-Security;

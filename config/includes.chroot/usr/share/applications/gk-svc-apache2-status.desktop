@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Apache2 Status
+Exec=/usr/local/bin/gk-svc-ctl apache2 status
+Icon=utilities-terminal
+Terminal=false
+Categories=X-GK-Svc-Apache;

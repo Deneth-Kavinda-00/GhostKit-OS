@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Steghide Steganography
+Exec=xfce4-terminal -T "Steghide Steganography" -e "bash -c 'steghide --help; exec bash'"
+Icon=security-high
+Terminal=false
+Categories=X-GK-Crypto;X-GhostKit-Security;

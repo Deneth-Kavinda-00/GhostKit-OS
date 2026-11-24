@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Start Apache2
+Exec=/usr/local/bin/gk-svc-ctl apache2 start
+Icon=media-playback-start
+Terminal=false
+Categories=X-GK-Svc-Apache;

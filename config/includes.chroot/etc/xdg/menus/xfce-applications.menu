@@ -1,0 +1,86 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+    <Name>Applications</Name>
+    <DefaultAppDirs/>
+    <DefaultDirectoryDirs/>
+
+    <Menu>
+        <Name>Development</Name>
+        <Include><Category>Development</Category></Include>
+    </Menu>
+    <Menu>
+        <Name>Office</Name>
+        <Include><Category>Office</Category></Include>
+    </Menu>
+    <Menu>
+        <Name>Multimedia</Name>
+        <Include><Category>AudioVideo</Category></Include>
+    </Menu>
+    <Menu>
+        <Name>Internet</Name>
+        <Include><Category>Network</Category></Include>
+        <Exclude><Category>X-GhostKit-Security</Category></Exclude>
+    </Menu>
+    <Menu>
+        <Name>Graphics</Name>
+        <Include><Category>Graphics</Category></Include>
+    </Menu>
+    <Menu>
+        <Name>Accessories</Name>
+        <Include><Category>Utility</Category></Include>
+        <Exclude>
+            <Category>Settings</Category>
+            <Category>System</Category>
+            <Category>X-GhostKit-Security</Category>
+        </Exclude>
+    </Menu>
+    <Menu>
+        <Name>Security</Name>
+        <Directory>xfce-security.directory</Directory>
+        <Include><Category>X-GhostKit-Security</Category></Include>
+        <Menu>
+            <Name>01 - Wi-Fi, Bluetooth &amp; Network</Name>
+            <Include><Category>X-GK-Network</Category></Include>
+        </Menu>
+        <Menu>
+            <Name>02 - Digital Forensics</Name>
+            <Include><Category>X-GK-Forensics</Category></Include>
+        </Menu>
+        <Menu>
+            <Name>03 - Password &amp; Cryptography</Name>
+            <Include><Category>X-GK-Crypto</Category></Include>
+        </Menu>
+        <Menu>
+            <Name>04 - Reverse Engineering &amp; Exploit</Name>
+            <Include><Category>X-GK-RevEng</Category></Include>
+        </Menu>
+        <Menu>
+            <Name>05 - Privacy &amp; Anonymity</Name>
+            <Include><Category>X-GK-Privacy</Category></Include>
+        </Menu>
+    </Menu>
+    <Menu>
+        <Name>Services</Name>
+        <Menu>
+            <Name>Apache2</Name>
+            <Include><Category>X-GK-Svc-Apache</Category></Include>
+        </Menu>
+        <Menu>
+            <Name>Nginx</Name>
+            <Include><Category>X-GK-Svc-Nginx</Category></Include>
+        </Menu>
+        <Menu>
+            <Name>MariaDB (MySQL)</Name>
+            <Include><Category>X-GK-Svc-MariaDB</Category></Include>
+        </Menu>
+        <Menu>
+            <Name>PostgreSQL</Name>
+            <Include><Category>X-GK-Svc-PostgreSQL</Category></Include>
+        </Menu>
+        <Menu>
+            <Name>Tor</Name>
+            <Include><Category>X-GK-Svc-Tor</Category></Include>
+        </Menu>
+    </Menu>
+</Menu>

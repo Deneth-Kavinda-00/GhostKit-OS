@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=HexEdit Binary Editor
+Exec=xfce4-terminal -T "HexEdit Binary Editor" -e "bash -c 'hexedit --help; exec bash'"
+Icon=accessories-text-editor
+Terminal=false
+Categories=X-GK-RevEng;X-GhostKit-Security;

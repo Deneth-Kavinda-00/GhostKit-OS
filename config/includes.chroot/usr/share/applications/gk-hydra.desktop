@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=THC Hydra
+Exec=xfce4-terminal -T "THC Hydra" -e "bash -c 'hydra -h | head -n 30; exec bash'"
+Icon=dialog-password
+Terminal=false
+Categories=X-GK-Crypto;X-GhostKit-Security;

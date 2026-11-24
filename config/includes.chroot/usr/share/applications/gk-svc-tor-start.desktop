@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Start Tor
+Exec=/usr/local/bin/gk-svc-ctl tor start
+Icon=media-playback-start
+Terminal=false
+Categories=X-GK-Svc-Tor;

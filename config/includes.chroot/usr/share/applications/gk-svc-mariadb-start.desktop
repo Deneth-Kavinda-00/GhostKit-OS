@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Start MariaDB
+Exec=/usr/local/bin/gk-svc-ctl mariadb start
+Icon=media-playback-start
+Terminal=false
+Categories=X-GK-Svc-MariaDB;

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=LibreWolf (Personal)
+Comment=Isolated LibreWolf Profile - Personal
+Exec=/usr/local/bin/gk-browser personal
+Icon=librewolf
+Terminal=false
+Categories=Network;WebBrowser;
