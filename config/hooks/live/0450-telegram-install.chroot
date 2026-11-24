@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+mkdir -p /opt/telegram /usr/local/bin
+if [ ! -x /opt/telegram/Telegram ]; then
+    curl -fSL "https://telegram.org/dl/desktop/linux" -o /tmp/tsetup.tar.xz
+    tar -xf /tmp/tsetup.tar.xz -C /tmp/
+    mv /tmp/Telegram/* /opt/telegram/
+    rm -rf /tmp/tsetup.tar.xz /tmp/Telegram
+fi
+ln -sf /opt/telegram/Telegram /usr/local/bin/telegram-desktop
